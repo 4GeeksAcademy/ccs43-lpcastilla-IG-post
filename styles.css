@@ -1,0 +1,83 @@
+body {
+    background:black;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    padding: 60px;
+}
+div {
+    box-sizing: border-box;
+}
+.post {
+    background: white;
+    width: 500px;
+    margin: auto;
+}
+.post-header {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.post .post-header div:first-child {
+    display: inline-block;
+    width: 10%;
+}
+.post .post-header div:nth-child(2) {
+    display: inline-block;
+    width: 20%;
+}
+.post .post-header div:last-child {
+    display: inline-block;
+    width: 70%;
+}
+.post-logo img {
+    width: 80%;
+}
+.post-text {
+    padding: 5px;
+    font-size: 12px;
+}
+.post-text h2, .post-text p {
+    margin: 0;
+} 
+.post-menu {
+    display: flex;
+}
+.post-menu i {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    align-items: center;
+    height: 100%;
+}
+div img {
+    width: 100%;
+}
+.postFooter {
+    padding: 15px;
+}
+.footer-header {
+    display: flex;
+}
+.footer-header div:first-child {
+    display: inline-block;
+    width: 70%;
+}
+.footer-header div:last-child {
+    display: inline-block;
+    width: 30%;
+}
+.footer-right {
+    font-size: 22px;
+    height: 100%;
+}
+.footer-left i {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    align-items: center;
+    height: 100%;
+}
